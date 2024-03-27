@@ -8,20 +8,20 @@ import { AppComponent } from './app.component';
 
 import { ExpenseListComponent } from './components/expense-list/expense-list.component';
 import { ExpenseFormComponent } from './components/expense-form/expense-form.component';
+import { NavegationComponent } from './components/navegation/navegation.component';
 
-// import { ExpenseListComponent } from './components/expense-list/expense-list.component';
-// import { ExpenseFormComponent } from './components/expense-form/expense-form.component';
+
 // import { HomeComponent } from './components/home/home.component';
-// import { NavbarComponent } from './components/navbar/navbar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ExpenseListComponent,
-    ExpenseFormComponent
-    // ExpenseFormComponent,
+    ExpenseFormComponent,
+    NavegationComponent
     // HomeComponent,
-    // NavbarComponent
+   
   ],
   imports: [
     BrowserModule,

@@ -6,7 +6,8 @@ Para la correcta ejecución de este proyecto, necesitas tener las siguientes tec
 
 - npm 9.6.7 
 - Angular CLI 17.3.0
-IMPORTANTE: Es indispensable tener clonado y en ejecución el proyecto [BACKEND-LAS](https://github.com/CristianGarci42022/BACKEND-LAS)
+## IMPORTANTE: 
+ - Es indispensable tener clonado y en ejecución el proyecto [BACKEND-LAS](https://github.com/CristianGarci42022/BACKEND-LAS)
 
 ## Instalación🔧
   1. Clona el proyecto

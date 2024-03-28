@@ -11,7 +11,7 @@ import { ExpenseFormComponent } from './components/expense-form/expense-form.com
 import { NavegationComponent } from './components/navegation/navegation.component';
 
 
-// import { HomeComponent } from './components/home/home.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
@@ -19,8 +19,8 @@ import { NavegationComponent } from './components/navegation/navegation.componen
     AppComponent,
     ExpenseListComponent,
     ExpenseFormComponent,
-    NavegationComponent
-    // HomeComponent,
+    NavegationComponent,
+    HomeComponent
    
   ],
   imports: [

@@ -1,7 +1,7 @@
 @import 'variables';
 
 .navbar {
-  background-color: $my-dark-color;
+  background-color: rgb(3, 57, 108);
 
   .navbar-brand {
     font-weight: bold;
@@ -16,7 +16,7 @@
     padding-left: 0.5rem;
 
     &.active {
-      text-shadow: 0 0 6px rgba(52, 152, 219, 0.80);
+      text-shadow: 0 0 6px rgba(2, 176, 31, 0.8);
     }
 
     &.active::before {

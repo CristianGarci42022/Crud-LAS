@@ -1,27 +1,21 @@
-# CrudLAS
+# Tus Cuentas en Orden
+Este proyecto se centra en el control de gastos diarios, destinadas a llevar a cabo operaciones CRUD con la tecnología Angular. Es importante mencionar que está estrechamente vinculado al proyecto [BACKEND-LAS](https://github.com/CristianGarci42022/BACKEND-LAS) , el cual ofrece una API para la ejecución de las distintas operaciones CRUD.
+# Pre-requisitos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+Para la correcta ejecución de este proyecto, necesitas tener las siguientes tecnologías instaladas en tu ordenador.
 
-## Development server
+- npm 9.6.7 
+- Angular CLI 17.3.0
+IMPORTANTE: Es indispensable tener clonado y en ejecución el proyecto [BACKEND-LAS](https://github.com/CristianGarci42022/BACKEND-LAS)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Instalación🔧
+  1. Clona el proyecto
+     
+    git clone https://github.com/CristianGarci42022/Crud-LAS.git
+  2. Instala las dependencias de node con npm.
+     
+    npm install 
+  3. Ejecuta el proyecto Angular en modo desarrollo y navega a http://localhost:4200/. (o puerto de tu preferencia)
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+    ng serve
+  4. Ejecuta el proyecto backend [BACKEND-LAS](https://github.com/CristianGarci42022/BACKEND-LAS) realizado con Laravel para que la aplicación Angular consuma los endpoints.
